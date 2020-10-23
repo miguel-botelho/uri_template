@@ -21,8 +21,6 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 # THE SOFTWARE.
 
-require 'uri_template/rfc6570'
-
 class URITemplate::RFC6570::Expression::Unnamed < URITemplate::RFC6570::Expression
 
   def self_pair(_, value, max_length = 0,&block)
